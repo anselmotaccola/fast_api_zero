@@ -6,10 +6,12 @@ authors = ["Your Name <you@example.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "3.12.*"  # ou 3.11.*
-fastapi = "^0.109.2"
+python = "3.12.*"
+fastapi = "^0.111.0"
 uvicorn = "^0.27.0.post1"
-pydantic = "^2.8.2"
+sqlalchemy = "^2.0.25"
+pydantic-settings = "^2.1.0"
+alembic = "^1.13.1"
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^8.2.0"
